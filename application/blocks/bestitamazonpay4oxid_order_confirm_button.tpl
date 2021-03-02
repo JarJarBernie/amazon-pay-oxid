@@ -9,7 +9,6 @@
                 var _this = this;
                 if (start) {
                     _this.construct();
-                    window.location.href = "#openModalLoading";
                 }
             },
             construct : function() {
