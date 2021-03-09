@@ -25,12 +25,12 @@
         });
     [{/capture}]
 
-    [{oxscript add=$smarty.capture.sBestitAmazonLoginScript}]
+    [{*oxscript add=$smarty.capture.sBestitAmazonLoginScript*}]
 
-    <div id="amazonLoginButton" style="display: none;">
+    [{*<div id="amazonLoginButton" style="display: none;">
         <div class="amazonTooltip">
             <i>?</i>
             <div class="amazonTooltipContent">[{oxmultilang ident="BESTITAMAZONPAY_LOGIN_BUTTON_HINT"}]</div>
         </div>
-    </div>
+    </div>*}]
 [{/if}]
